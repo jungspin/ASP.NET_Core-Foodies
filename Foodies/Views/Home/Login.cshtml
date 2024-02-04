@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+    이건 주석 표시로구만
+*@
+
+@{
+    Layout = null;
+}
+
+<div class="text-center">
+    <h1 class="display-1">Login</h1>
+    <div>
+        <input type="text" placeholder="Input Your Id" />
+    </div>
+    <div>
+        <input type="password" placeholder="Input Your Password" />
+    </div>
+    <div>
+        <!-- 버튼만으로 어떻게 이동시키지? -->
+        <button>
+            <a type="submit" asp-controller="Home" asp-action="Index">
+                Login
+            </a>
+        </button>
+    </div>
+</div>
